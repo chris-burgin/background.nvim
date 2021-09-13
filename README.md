@@ -14,7 +14,7 @@ require("background_nvim").setup()
 ### Advanced
 ```lua
 require("background_nvim").setup({
- ms = 60000, -- default
- hour = 17 -- default
+  ms = 60000, -- default
+  hour = 17 -- default
 })
 ```
