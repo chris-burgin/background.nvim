@@ -1,5 +1,5 @@
 # background.nvim
-Simple plugin to automatically `set background` at after a certain hour.
+Simple plugin to automatically `set background="dark"` at after a certain hour.
 
 ## Install
 #### Packer
