@@ -6,7 +6,6 @@ local opts = {
 
 function M.check_which_theme()
 	local hour = os.date("*t").hour
-	print(os.date("*t").sec)
 	if (hour > opts.hour) then
 		vim.opt.background = 'dark'
 	else
