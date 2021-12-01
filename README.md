@@ -14,7 +14,7 @@ require("background_nvim").setup()
 ### Advanced
 ```lua
 require("background_nvim").setup({
-  ms = 60 * 1000, -- default
-  hour = 17,      -- default
+  ms = 60 * 1000, -- default, how long between each check
+  hour = 17,      -- default, at which hour the dark theme is enabled
 })
 ```
